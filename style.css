@@ -1,0 +1,102 @@
+body {
+    background-color: #010165;
+    margin: 0px;
+  }
+  
+  header {
+    background-color: #00ffff;
+    text-align: center;
+    height: 50px;
+    
+  }
+
+ h1 {
+  font-size: 36px;
+  margin-top: 0px;
+  font-family: 'Work Sans';
+ }
+  
+  .title-row {
+    margin-top: 42px;
+    margin-bottom: 21px;
+    text-align: center;
+  }
+  
+  .instructions-title {
+    display: inline;
+    font-size: 18px;
+    color: #00ffff;
+    font-family: 'Work Sans';
+  }
+  
+  .instructions-row {
+    margin: 0 auto;
+    width: 400px;
+  }
+  
+  .instructions-number {
+    padding-right: 25px;
+    font-size: 36px;
+    color: #00ffff;
+    font-family: 'Work Sans';
+  }
+  
+  .instructions-text {
+    padding-right: 10px;
+    font-size: 14px;
+    color: #ffffff;
+    font-family: 'Work Sans';
+  }
+  
+  .door-row {
+    text-align: center;
+  }
+  
+  .start-row {
+    margin: auto;
+    width: 120px;
+    height: 43px;
+    font-family: 'Work Sans';
+    background-color: #eb6536;
+    padding-top: 18px;
+    font-size: 18px;
+    text-align: center;
+    color: #010165;
+    margin-bottom: 21px;
+    cursor: pointer;
+    border: 2px solid white;
+  }
+  
+  .score {
+    margin: auto;
+    width: 200px;
+    height: 120px;
+    font-family: 'Work Sans';
+    background-color: #eb6536;
+    font-size: 16px;
+    justify-content: space-around;
+    
+    color: #010165;
+    display: flex;
+  }
+
+.score div {
+  border: 2px solid white;
+  width: 50%;
+}
+
+  .score div p {
+    text-align: center;
+  }
+
+  .score div span {
+    font-size: 30px;
+    color: white;
+  }
+
+  .door-row img {
+    cursor: pointer;
+    padding: 10px;
+  }
+  
+  
